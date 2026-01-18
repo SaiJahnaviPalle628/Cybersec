@@ -1,0 +1,36 @@
+janu@SJP:~$ cd /home/janu/cybersec_1/gdg-cybersec/cybersec-recruitments
+janu@SJP:~/cybersec_1/gdg-cybersec/cybersec-recruitments$ pwd
+/home/janu/cybersec_1/gdg-cybersec/cybersec-recruitments
+janu@SJP:~/cybersec_1/gdg-cybersec/cybersec-recruitments$ ls
+gdg_part1  gdg_part2  gdg_part3  instructions.txt  instructions.txt:Zone.Identifier
+janu@SJP:~/cybersec_1/gdg-cybersec/cybersec-recruitments$ cd gdg_part1
+janu@SJP:~/cybersec_1/gdg-cybersec/cybersec-recruitments/gdg_part1$ pwd
+ls -a
+/home/janu/cybersec_1/gdg-cybersec/cybersec-recruitments/gdg_part1
+.   .git        README.txt:Zone.Identifier  app.py:Zone.Identifier  xotwod.txt:Zone.Identifier
+..  README.txt  app.py                      xotwod.txt
+janu@SJP:~/cybersec_1/gdg-cybersec/cybersec-recruitments/gdg_part1$ git log --oneline
+git show 53ad829c2da3533ef04dcfe1286c896d6c2e3b49
+1a19965 (HEAD -> master) Update greeting with helpful hints
+74d6d6c Add decoy file
+0dc4590 Remove config file (oops, committed secrets!)
+53ad829 Add configuration file
+c27ba66 Add greeting function
+a4783d0 Initial commit
+commit 53ad829c2da3533ef04dcfe1286c896d6c2e3b49
+Author: root <root@kali.kali>
+Date:   Wed Dec 31 15:25:32 2025 +0530
+
+    Add configuration file
+
+diff --git a/config.txt b/config.txt
+new file mode 100644
+index 0000000..f238359
+--- /dev/null
++++ b/config.txt
+@@ -0,0 +1,3 @@
+
+  
++# Secret Configuration
++FLAG_PART_1=gdg{sw1ss_
++API_KEY=dont_redeem_it
